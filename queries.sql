@@ -11,9 +11,9 @@ INSERT INTO orders (customer_id, product_id, order_date, quantity) VALUES
 (2, 2, '2024-07-17', 1);
 
 INSERT INTO suppliers (name, contact_name) VALUES
-('Supplier A', 'Anna'),
-('Supplier B', 'Martin');
-
+('Supplier A', 'Alice'),
+('Supplier B', 'Bob'),
+('Supplier C', 'Vlad Ushakov');
 INSERT INTO productsuppliers (product_id, supplier_id, supply_date) VALUES
 (1, 1, '2024-07-16'),
 (2, 2, '2024-07-17');
